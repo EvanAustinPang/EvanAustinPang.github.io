@@ -19,12 +19,6 @@
       <p>　　</p><h2>
 <a id="-pagetitle-" class="anchor" href="#-pagetitle-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>{{ page.title }}</h2>
 　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="%7B%7B%20site.baseurl%20%7D%7D%7B%7B%20post.url%20%7D%7D">{{ post.title }}</a>
-</li>
-　　　　{% endfor %}
-　　</ul>
 
       <footer class="site-footer">
 
