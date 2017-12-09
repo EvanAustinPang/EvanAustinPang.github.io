@@ -1,6 +1,6 @@
 {
   "name": "技术的海洋无限美。。。",
   "tagline": "Evan的博客家园",
-  "body": "　　<h2>{{ page.title }}</h2>\r\n　　<p>最新文章</p>\r\n　　<ul>\r\n　　　　{% for post in site.posts %}\r\n　　　　　　<li>{{ post.date | date_to_string }} <a href=\"{{ site.baseurl }}{{ post.url }}\">{{ post.title }}</a></li>\r\n　　　　{% endfor %}\r\n　　</ul>\r\n",
+  "body": "我要河曲\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
